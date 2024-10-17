@@ -5,11 +5,11 @@ cartao.className = 'cartao';
 cartao.innerHTML =`
 
 <div class="conteudo-cartao">
-<h3>${categorias}</h3>
+<h3>${categoria}</h3>
 <div class="pergunta-cartao">
-<p>${perguntas}</p>
+<p>${pergunta}</p>
 </div>
-<p>${perguntas}</p>
+<p>${resposta}</p>
 </div>
 <div class="resposta-cartao">
     <p>resposta</p>

@@ -24,3 +24,9 @@ footer{
 margin: 4rem;
 padding: 4rem;
 }
+
+.cartao{
+    background-color: var(--cartao-frente);
+    flex-grow: 1;
+    flex-basis: ;
+}

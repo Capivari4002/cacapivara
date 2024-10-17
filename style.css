@@ -55,6 +55,10 @@ padding: 4rem;
 }
 
 .pergunta-cartao{
+    font-weight: 500;
+}
+
+.resposta-cartao{
     font-weight: 700;
     color: var(--destaque);
 }

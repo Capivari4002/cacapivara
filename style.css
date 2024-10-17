@@ -68,5 +68,6 @@ flex-wrap: wrap;
 }
 
 .cartao:hover .conteudo-cartao{
-    transform: rotatey(180deg);
+    transform: rotateY(180deg);
+
 }

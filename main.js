@@ -17,10 +17,11 @@ cartao.innerHTML =`
 `
 let respostaestavisivel= false
 function viraCartao() {
-    respostaestavisivel = !respostaestavisivel;
+    respostaestavisivel =!respostaestavisivel;
     cartao.classList.toggle('active', respostaestavisivel);
 }
 
 cartao.addEventListener('click',viraCartao);
+
 container.appendChild(cartao);
 }

@@ -59,29 +59,30 @@ footer {
 .conteudo-cartao p {
     font-size: 1.4vw;
     margin-top: 500;
-    padding: 2rem;}
+    padding: 2rem;
+}
 
-    .pergunta-cartao {
-        font-weight: 500;
-    }
+.pergunta-cartao {
+    font-weight: 500;
+}
 
-    .resposta-cartao {
-        font-weight: 700;
-        color: var(--destaque);
-        background-color: var(--cartao-verso);
-        transform: rotateY(180deg);
-        border: 2px solid var(--destaque);
-    }
+.resposta-cartao {
+    font-weight: 700;
+    color: var(--destaque);
+    background-color: var(--cartao-verso);
+    transform: rotateY(180deg);
+    border: 2px solid var(--destaque);
+}
 
-    .cartao:hover .conteudo-cartao {
-        transform: rotateY(180deg);
+.cartao:hover .conteudo-cartao {
+    transform: rotateY(180deg);
 
-    }
+}
 
-    .pergunta-cartao,
-    .resposta-cartao {
-        backface-visibility: hidden;
-        position: absolute;
-        height: 100%;
-        width: 100%;
-    }
+.pergunta-cartao,
+.resposta-cartao {
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}

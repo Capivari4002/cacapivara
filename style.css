@@ -38,7 +38,7 @@ flex-wrap: wrap;
     height: 100%;
     text-align: center;
     transform-style: preserve-3d;
-    transition: transform 300ms;
+    transition: transform 300ms ease-in-out;
     
 }
 
@@ -66,9 +66,19 @@ flex-wrap: wrap;
 .resposta-cartao{
     font-weight: 700;
     color: var(--destaque);
+    background-color: var(--cartao-verso);
+    transform: rotateY(180deg);
+    border: 2px solid var(--destaque);
 }
 
 .cartao:hover .conteudo-cartao{
     transform: rotateY(180deg);
 
+}
+.pergunta-cartao,
+.resposta-cartao{
+    backface-visibility: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
